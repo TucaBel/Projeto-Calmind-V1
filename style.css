@@ -122,6 +122,11 @@ body{
 
 }
 
+button a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+
 .inputs button{
     margin-top: 15px;
     border: none;
@@ -135,4 +140,39 @@ body{
 
 .inputs button:hover{
     background-color: #0000CD;
+}
+
+.nome1{
+position: absolute;
+left: 18%;
+top: -80px
+}
+
+.logo1 {
+    position: absolute;
+    left: 7%;
+    top: -80px;
+    transform: scale(0.5); 
+
+}
+
+.h11 {
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 700px; 
+    word-wrap: break-word; 
+}   
+
+.h12{
+    color: white;
+    font-family: cursive ;
+    position: absolute;
+    left: 1%;
+    top: 100%;
+    width: 700px; 
+    word-wrap: break-word; 
+
 }
